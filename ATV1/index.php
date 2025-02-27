@@ -23,7 +23,7 @@
 </head>
 <body>
 
-    <form action="processa.php" method="get">
+    <form action="destino.php" method="get">
         <label>Nome:</label>
         <input type="text" name="nome" required>
 

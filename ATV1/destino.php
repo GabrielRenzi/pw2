@@ -22,13 +22,11 @@ if (empty($_GET)) {
 <body>
 
     <div class="container">
-        <h2>Dados Recebidos</h2>
+        <h1>Dados do Cadastro</h1>
+        <p><?php print_r($dados); ?></p>
 
-        <h3>Dados Enviados:</h3>
-        <pre><?php print_r($dados); ?></pre>
-
-        <h3>Cabeçalhos da Requisição:</h3>
-        <pre><?php print_r($cabecalhos); ?></pre>
+        <h1>Rquisição</h1>
+        <p><?php print_r($cabecalhos); ?></p>
     </div>
 
 </body>
