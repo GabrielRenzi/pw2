@@ -5,11 +5,6 @@ $cabecalhos = apache_request_headers();
 
 $metodo = $_SERVER['REQUEST_METHOD'];
 
-if (empty($_GET)) {
-    echo "Nenhum dado foi recebido via GET.";
-}
-
-
 ?>
 
 <!DOCTYPE html>
