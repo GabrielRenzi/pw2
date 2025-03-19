@@ -27,6 +27,7 @@ class ImcModel extends Model
     }
 
     public function imc() {
+        $valores["nome"] = $_GET["nome"];
         $valores["peso"] = $_GET["peso"];
         $valores["altura"] = $_GET["altura"];
         $valores["imc"] = $this->calcula_imc($valores["peso"],$valores["altura"]);

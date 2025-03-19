@@ -8,6 +8,7 @@
 <body>
     <h2>Resultado do IMC</h2>
 
+    <h3>Nome: {{$resultadoimc["nome"]}}</h3>
     <p>Peso: {{$resultadoimc["peso"]}}</p>
     <p>Altura: {{$resultadoimc["altura"]}}</p>
     <p>IMC: {{$resultadoimc["imc"]}} - {{$resultadoimc["classificacaoimc"]}}</p>
