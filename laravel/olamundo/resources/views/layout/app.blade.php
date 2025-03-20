@@ -15,8 +15,20 @@
     @endif
 </head>
 <body>
-    <div class="flex-6/12 max-w-6xl p-12 bg-gray-700 border border-gray-200 rounded-lg shadow-sm mx-auto mt-12 text-yellow-300">
-        @yield('content')
+    <div class="max-w-2xl mx-auto bg-amber-950 p-16 rounded">
+        <nav class="flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-white">@yield('title')</h1>
+            <ul class="flex space-x-4">
+                <li><a href="{{url('/')}}" class="text-white
+                    hover:text-blue-500">Home</a></li>
+                <li><a href="{{url('/sobre')}}" class="text-white
+                        hover:text-blue-500">Sobre</a></li>
+                <li><a href="{{url('/contato')}}" class="text-white
+                    hover:text-blue-500">Contato</a></li>
+            </ul>
+        </nav>
+        <br>
+            @yield('content')
     </div>
 </body>
 </html>

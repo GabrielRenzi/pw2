@@ -1,11 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
+use function view;
 
 use Illuminate\Http\Request;
 use App\Models\servidor;
 use App\Models\emails;
-
 class ContatoController extends Controller
 {
     public function index()
