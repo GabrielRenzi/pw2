@@ -12,3 +12,4 @@ class SobreController extends Controller
         return view('sobre',compact('framework','metodologia'));
     }
 }
+0

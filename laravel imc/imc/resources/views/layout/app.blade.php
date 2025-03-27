@@ -15,5 +15,17 @@
     @endif
 </head>
 <body>
+<div id="layouthome">
+        <nav class="flex justify-between items-center">
+            <ul class="flex space-x-4">
+                <li><a href="{{url('/')}}" class="text-black
+                    hover:text-blue-500">Home</a></li>
+                <li><a href="{{url('/dados')}}" class="text-black
+                        hover:text-blue-500">Imc</a></li>
+                <li><a href="{{url('/formssono')}}" class="text-black
+                    hover:text-blue-500">Sono</a></li>
+            </ul>
+        </nav>
+    </div>
 </body>
 </html>

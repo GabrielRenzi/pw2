@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado do Sono</title>
+    @extends('layout.app')
 </head>
-<body>
+<body id="layoutimc">
     <h2>Resultado do Sono</h2>
 
     <h3>Nome: {{$resultadosono["nome"]}}</h3>
