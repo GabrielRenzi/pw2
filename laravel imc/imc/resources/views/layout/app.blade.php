@@ -24,6 +24,8 @@
                         hover:text-blue-500">Imc</a></li>
                 <li><a href="{{url('/formssono')}}" class="text-black
                     hover:text-blue-500">Sono</a></li>
+                <li><a href="{{url('/formsviagem')}}" class="text-black
+                    hover:text-blue-500">Gasto Viagem</a></li>
             </ul>
         </nav>
     </div>
